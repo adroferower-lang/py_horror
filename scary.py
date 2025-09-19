@@ -8,7 +8,7 @@ import pygame
 # Файлы
 GIF_FILE = "scary.gif"
 MP3_FILE = "scary.mp3"
-TIMER = 600  # 10 минут
+TIMER = 78 # 10 минут
 
 class ScaryApp:
     def __init__(self, root):
