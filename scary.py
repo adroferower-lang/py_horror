@@ -60,7 +60,7 @@ class ScaryApp:
             mins, secs = divmod(i, 60)
             self.canvas.itemconfig(self.timer_text, text=f"{mins:02}:{secs:02}")
             time.sleep(1)
-        self.canvas.itemconfig(self.timer_text, text="😱 BOO! 😱")
+        self.canvas.itemconfig(self.timer_text, text="тобі пізда")
 
     def play_music(self):
         pygame.mixer.init()
@@ -109,3 +109,4 @@ class ScaryApp:
 root = tk.Tk()
 app = ScaryApp(root)
 root.mainloop()
+
